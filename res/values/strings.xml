@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">Truyen</string>
+    <string name="action_settings">Settings</string>
+    <string name="Company">xec@</string>
+    <string name ="ServerIP">Server IP</string>
+    <string name ="rememberPassword">Remember my password</string>
+	<string name ="enter">   Enter   </string>
+	<string name ="Vietbuton"> &#84;&#114;&#117;&#121;&#7879;&#110;&#32;&#67;&#7893;&#32;&#84;&#237;&#99;&#104; </string>
+	<string name ="Englishbuton"> English Fairy Tales </string>
+	<string name ="App">Application</string>
+	<string name ="RDP_App_Start_Here">RDP Application Start Here</string>
+	<string name="warningtxt"></string>
+	<string name="starttxtvn">&#x42;&#x1eaf;&#x74;&#x20;&#x111;&#x1ea7;&#x75;&#x20;&#x74;&#x1eeb;&#x20;&#x6e;&#x68;&#x1eef;&#x6e;&#x67;&#x20;&#x1b0;&#x1edb;&#x63;&#x20;&#x6d;&#x1a1;&#x20;&#8230;</string>
+	<string name="starttxten">Dreams start a life</string>
+	<string name="sepatechacter">&#8211;</string>
+	<string name="list_display_label">List</string>
+	<string name="listvn">&#x54;&#x72;&#x75;&#x79;&#x1ec7;&#x6e;&#x20;&#x54;&#x69;&#x1ebf;&#x6e;&#x67;&#x20;&#x56;&#x69;&#x1ec7;&#x74;</string>
+	<string name="listen">English Stories</string>
+	<string name="iscontentloading">Loading Story: %1$s</string>
+	
+	<string name="truyentitle">Title</string>
+	<string name="truyencontent">Story Content</string>
+	
+	<string name="nonetwork">No Network Connection</string>
+	
+    <string name="Searchhint">Type your key words</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name ="settings">Settings</string>
+	<string name ="exit">Exit</string>
+	<string name ="back">Back</string>
+	<string name ="pre">pre</string>
+	<string name ="next">next</string>
+	<string name ="page">page</string>
+	<string name ="close">Close</string>
+	<string name ="search_menu">Searchmmm</string>
+	<string name ="Search">Searchsss</string>
+		
+    <string name ="rest_service_na">Resetful service is not available at %1$s. Please try it later.</string>
+	<string name ="invalid_URL">Service url is not valid</string>
+	
+    <string name ="restURL">Service URL</string>
+    <string name ="restURL_hint">Contact your service provider for this URL</string>
+	<string name ="register_now">Register now</string>
+	<string name ="newUser">if you are new user</string>
+			
+	<string name ="signin_empty">All fields are mandatory</string>
+	<string name ="signin_invalid_acc">Incorrect user name or password</string>
+    <string name ="settings_fail_load">Failed to load your settings this time. Please try it later.</string>
+	<string name ="applist_fail_list_null">Failed to load your applications. Please try it later.</string>
+	<string name ="applist_fail_list_empty">Yout have no permission to run any application. Please contact your administrator.</string>
+
+	<string name ="app_display_model">Display as:</string>
+	<string name ="app_icon">Icon</string>
+	<string name ="app_list">List</string>
+	<string name ="app_refresh">Refresh</string>
+
+    <string name ="settings_sound">Enable Sound Redirect</string>
+    <string name ="settings_disk">Enable Local Storage</string>
+    <string name ="settings_font">Enable Font Smoothing </string>
+    <string name ="settings_reconnection">Enable Auto Reconnection</string>
+	<string name ="settings_fail_update">Failed to update your settings this time. Please try it later.</string>
+	<string name ="settings_ok">Your settings have been updated successfully.</string>
+    <string name ="update">Update</string>
+        
+    <!-- Home menu items -->
+    <string name="menu_exit">Exit</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_new_bookmark">New Connection</string>
+    <string name="menu_app_settings">Settings</string>
+
+    <string-array name="colors_array">
+        <item>High Color (16 Bit)</item>
+        <item>True Color (24 Bit)</item>
+        <item>Highest Quality (32 Bit)</item>
+    </string-array>
+    <string-array name="colors_values_array">
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+    </string-array>
+    <string name="settings_resolution">Resolution</string>
+    <string name="resolution_automatic">Automatic</string>
+    <string name="resolution_custom">Custom</string>
+    <string-array name="resolutions_array">
+        <item>Automatic</item>
+        <item>Custom</item>
+        <item>640x480</item>
+        <item>720x480</item>
+        <item>800x600</item>
+        <item>1024x768</item>
+        <item>1280x1024</item>
+        <item>1440x900</item>
+        <item>1920x1080</item>
+        <item>1920x1200</item>
+    </string-array>
+    <string-array name="resolutions_values_array">
+        <item>automatic</item>
+        <item>custom</item>
+        <item>640x480</item>
+        <item>720x480</item>
+        <item>800x600</item>
+        <item>1024x768</item>
+        <item>1280x1024</item>
+        <item>1440x900</item>
+        <item>1920x1080</item>
+        <item>1920x1200</item>
+    </string-array>
+
+    <string-array name="security_array">
+        <item>Automatic</item>
+        <item>RDP</item>
+        <item>TLS</item>
+        <item>NLA</item>
+    </string-array>
+    <string-array name="security_values_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string name="run_task">Run</string>
+    <string name="task_working">Working (%1$d)...</string>
+    <string name="task_loading">Loading...(%1$d)\n%2$s</string>
+    <string name="task_starting">Loging to %1$s  </string>
+    <string name="task_cancelled">Task is cancelled by user</string>
+    <string name="task_completed">Loading is completed with result (%1$s)</string>
+    
+</resources>

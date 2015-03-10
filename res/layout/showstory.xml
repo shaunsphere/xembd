@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/truyencontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/truyencontent" />
+
+    </ScrollView>
+
+</RelativeLayout>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:weightSum="1"
+android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list"
+           android:layout_weight="0.3"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" >  
+        </ListView>
+android:inputType="textMultiLine"
+        <ScrollView
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/storycontent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/truyencontent" />
+
+        </ScrollView>
+<TextView  
+ android:id="@+id/truyencontent"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="10sp"
+    />
+</LinearLayout> -->

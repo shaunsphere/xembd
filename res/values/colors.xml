@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="pale_gray">#d8d8d8</drawable>
+    
+    <drawable name="transparent">#00000000</drawable>
+
+    
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	
+	<drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+<!--  If you set the color of the UI layout as #29000000, the first hex 2-digit(#29) represents alpha channels of color and set opacity. If value is “00” that means 100% transparent -->    
+
+    <drawable name="white_16Percent_opacity">#10ffffff</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="black">#000000</drawable>
+	<drawable name="gray">#c8c8c8</drawable>
+	<drawable name="silver">#C0C0C0</drawable>
+	<drawable name="lightgrey">#D3D3D3</drawable>
+
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="gray">#808080</color>
+	<color name="silver">#C0C0C0</color>
+	<color name="lightgrey">#D3D3D3</color>
+	
+	<color  name="transparent">#00000000</color >
+	<color  name="translucent_background">#e0000000</color >
+	<color  name="transparenthalf">#80000000</color >
+	<color  name="transparentquater">#2D000000</color >
+
+	
+	<color  name="green">#7700ff00</color >
+	<color  name="blue">#770000ff</color >
+	<color  name="red">#7f00</color >
+	
+    <color name="blue_picasso">#0276FD</color>
+	
+</resources>

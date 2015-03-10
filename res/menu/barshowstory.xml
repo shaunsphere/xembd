@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pre"
+        android:icon="@drawable/left_arrow"
+        android:showAsAction="always"
+        android:title="@string/pre"
+        />
+    <item
+        android:id="@+id/page"
+        android:showAsAction="withText"
+        android:title="@string/page"/>
+    
+    <item
+        android:id="@+id/next"
+        android:icon="@drawable/right_arrow"
+        android:showAsAction="always"
+        android:title="@string/next"
+        />
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:gravity="center" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+  
+    <ImageView
+        android:id="@+id/imageVN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal" />
+      	
+     <EditText android:id="@+id/editTextDomain"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:inputType="text"
+	/>
+ 
+ 	<Button
+	    android:id="@+id/viet_but"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/Vietbuton" 
+	    android:onClick="PressedBut" />
+ 	
+ 	<Button
+	    android:id="@+id/en_but"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/Englishbuton"  
+	    android:onClick="PressedBut"/>
+ 	
+	<Button
+	    android:id="@+id/exit_but"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/exit"  
+	    android:onClick="PressedBut"/>
+
+	 <TextView
+            android:id="@+id/warntxt"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/starttxtvn"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</TableLayout>
